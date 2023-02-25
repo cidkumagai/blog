@@ -105,3 +105,93 @@ a {
     color-scheme: dark;
   }
 }
+
+/* ヘッダー */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+h6 {
+  font-size: 16px;
+}
+
+/* リスト */
+ul, ol {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  padding-left: 24px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+/* リンク */
+a {
+  color: #0070f3;
+  text-decoration: none;
+  border-bottom: 1px solid #0070f3;
+}
+
+a:hover {
+  color: #0070f3;
+  text-decoration: none;
+  border-bottom: 2px solid #0070f3;
+}
+
+/* コードブロック */
+pre {
+  background-color: #f6f8fa;
+  color: #000000;
+  border-radius: 6px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  padding: 16px;
+  overflow-x: auto;
+}
+
+code {
+  font-family: Menlo, Monaco, "Courier New", monospace;
+}
+
+/* インラインコード */
+.inline-code {
+  font-family: Menlo, Monaco, "Courier New", monospace;
+  background-color: #f6f8fa;
+  border-radius: 3px;
+  padding: 3px 6px;
+}
+
+/* 引用 */
+blockquote {
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  padding-left: 24px;
+  border-left: 4px solid #0070f3;
+  color: #6a737d;
+}
+
